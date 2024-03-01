@@ -156,7 +156,7 @@ rosrun rqt_reconfigure rqt_reconfigure
 # 创建工作空间
 mkdir ~/catkin_ws/src
 cd ~/catkin_ws/src
-git clone ...
+git clone https://github.com/LadissonLai/learning_dynamic_reconfigure.git
 cd ~/catkin_ws
 catkin_make
 source ./devel/setup.bash
