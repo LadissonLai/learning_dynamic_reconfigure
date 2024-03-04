@@ -2,7 +2,7 @@
 
 ros动态参数在官方叫做dynamic_reconfigure，这个功能的作用是用于node运行时修改内部参数，区别于静态读取本地yaml文件参数的方式（更常用），请见另一github[仓库](https://github.com/LadissonLai/learning_load_yaml)。
 
-主要用途是调试和实时修改机器人参数。
+主要用途是在调试机器人时能动态修改机器人参数，而不需要重新编译。
 
 具体操作流程：
 
